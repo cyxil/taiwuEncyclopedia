@@ -11,3 +11,7 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Temp scripts / responses (dot-prefixed helpers used during setup)
+/.*.json
+/.*.py
