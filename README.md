@@ -4,7 +4,7 @@
 
 ## 在线浏览
 
-直接打开 [`index.html`](./index.html) 即可浏览本地百科页面。
+ [`太吾百晓册`](https://www.axureshow.com/project/jzhiof7Q/) 
 
 ## 下载 Android 客户端
 
