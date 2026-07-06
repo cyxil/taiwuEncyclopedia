@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+<meta name="theme-color" content="#F5F3EE">
+<meta name="description" content="太吾绘卷·百晓册 —— 官方wiki，水墨风在线资料库">
+<title>百晓册 · 太吾绘卷</title>
+<link rel="stylesheet" href="fonts.css?v=20260630-5">
+<link rel="stylesheet" href="styles.css?v=20260630-5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23C43D3D' transform='rotate(-3 16 16)'/%3E%3Ctext x='16' y='23' font-size='18' fill='%23F5F3EE' text-anchor='middle' font-family='serif' font-weight='bold'%3E%E5%90%BE%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<!-- 顶栏 -->
+<header class="topbar">
+  <button class="icon-btn menu-toggle" id="menu-toggle" aria-label="目录"></button>
+  <a class="brand" href="#/">
+    <span class="seal">吾</span>
+    <span>百晓册</span>
+    <span class="sub">太吾绘卷</span>
+  </a>
+  <div class="search-wrap">
+    <span class="search-icon"></span>
+    <input class="search" id="search" type="search" placeholder="查阅词条、功法、门派…" autocomplete="off" spellcheck="false">
+    <div class="search-results" id="search-results"></div>
+  </div>
+  <div class="top-actions">
+    <button class="icon-btn" id="font-toggle" aria-label="切换字体" title="切换字体"></button>
+    <button class="icon-btn" id="theme-toggle" aria-label="切换昼夜"></button>
+  </div>
+</header>
+
+<!-- 主体布局 -->
+<div class="layout">
+  <!-- 侧栏 -->
+  <aside class="sidebar" id="sidebar">
+    <nav class="side-tabs" id="side-tabs"></nav>
+    <div class="tree" id="tree"></div>
+    <div class="sidebar-foot">
+      <a class="apk-btn" href="太吾百晓册.apk" download="太吾百晓册.apk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+        <span>下载安卓端</span>
+      </a>
+      <a class="foot-link changelog-link" href="#/changelog">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <span>更新日志</span>
+      </a>
+    </div>
+  </aside>
+
+  <!-- 阅读区 -->
+  <main class="reader" id="reader"></main>
+</div>
+
+<!-- 返回顶部 -->
+<button class="back-to-top" id="back-to-top" aria-label="返回顶部" title="返回顶部"></button>
+
+<div class="scrim" id="scrim"></div>
+
+<!-- 数据（bootstrap）+ 应用逻辑 -->
+<script src="data/bootstrap.js?v=20260630-5"></script>
+<script src="app.js?v=20260630-5"></script>
+</body>
+</html>

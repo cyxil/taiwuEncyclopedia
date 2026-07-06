@@ -1,0 +1,39 @@
+/* ======================================================================
+   字体：标题霞鹜文楷（书法风），正文思源宋体；离线回退系统楷/宋
+   通过 jsDelivr CDN 加载，离线时自动回退系统字体
+   ====================================================================== */
+
+/* 霞鹜文楷 —— 书法韵味，开源 SIL OFL */
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("LXGW WenKai");
+}
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("LXGW WenKai Bold"),
+       local("LXGW WenKai");
+}
+
+/* 思源宋体 —— 正文衬线，清雅 */
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Noto Serif SC"),
+       url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.5/files/noto-serif-sc-chinese-simplified-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local("Noto Serif SC Bold"),
+       url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc@5.0.5/files/noto-serif-sc-chinese-simplified-700-normal.woff2") format("woff2");
+}
